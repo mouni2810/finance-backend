@@ -1,12 +1,11 @@
 # Finance Data Processing & Access Control Backend
-## 🚀 Live Testing Instructions
+## Key Highlights
 
-Use Thunder Client or Postman to test APIs.
-
-Example:
-- Create user → POST /users?role=ADMIN
-- Create record → POST /records?role=ADMIN
-- View summary → GET /records/summary?role=ANALYST
+- Built using Spring Boot with layered architecture
+- Implemented full CRUD operations
+- Added Role-Based Access Control (ADMIN, ANALYST, VIEWER)
+- Developed financial summary APIs (income, expense, balance)
+- Implemented global exception handling for clean error responses
 ## Overview
 
 This project is a backend system built using **Spring Boot** for managing financial records with **role-based access control**.
